@@ -11,7 +11,7 @@ for(i=0; i<len001; i++)
 		if(a002[0].style.backgroundColor!=a002[1].style.backgroundColor && a002[0].style.backgroundColor!=a002[2].style.backgroundColor)
 		{
 			a002[0].innerHTML='請按這個';
-			a002[0].click();
+			//a002[0].click();
 		}
 	}
 	else if(i==len001-1)
@@ -19,7 +19,7 @@ for(i=0; i<len001; i++)
 		if(a002[i].style.backgroundColor!=a002[i-1].style.backgroundColor && a002[i].style.backgroundColor!=a002[i-2].style.backgroundColor)
 		{
 			a002[i].innerHTML='請按這個';
-			a002[i].click();
+			//a002[i].click();
 		}
 	}
 	else
@@ -27,7 +27,7 @@ for(i=0; i<len001; i++)
 		if(a002[i].style.backgroundColor!=a002[i-1].style.backgroundColor && a002[i].style.backgroundColor!=a002[i+1].style.backgroundColor)
 		{
 			a002[i].innerHTML='請按這個';
-			a002[i].click();
+			//a002[i].click();
 		}
 	}
 }"
