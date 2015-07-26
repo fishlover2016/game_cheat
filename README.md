@@ -5,7 +5,7 @@ use chrome's dev-tools to edit html element locally
 find proper element to insert code in cheat_javascript
 
 like here :
-<div class="page hide" id="room" style="display: block;">
+&lt;div class="page hide" id="room" style="display: block;"&gt;
 =>
-<div onmouseover="......." class="page hide" id="room" style="display: block;">
+&lt;div onmouseover="......." class="page hide" id="room" style="display: block;"&gt;
 
